@@ -1,5 +1,7 @@
 # LemonUI
 
+[![Nuget](https://img.shields.io/nuget/v/NexusKrop.LemonUI.SHVDNC?style=flat-square&logo=nuget&logoColor=white)](https://www.nuget.org/packages/NexusKrop.LemonUI.SHVDNC)
+
 > **Unofficial version. Not endorsed or supported by Lemon.**
 >
 > For the official version, **[Click here](https://github.com/LemonUIbyLemon/LemonUI)**. Do not report issues that occurs while using this fork to LemonUI upstream; report to this repository.
@@ -25,25 +27,9 @@ Special thanks to:
 
 ## Installation
 
-> Warning: You don't need to install all of the files. You only need to install the ones for the framework you plan to use. For example, if you want to install SHVDN mods, you don't need to install the RPH version.
+### Users
 
-### FiveM
-
-You don't need to install any files when using FiveM. When you connect to a server, the resources that need it will automatically provide a copy of LemonUI.
-
-### RageMP
-
-You don't need to install any files when using RageMP. When you connect to a server, the resources that need it will automatically provide a copy of LemonUI when compiling the code.
-
-### RagePluginHook
-
-Copy all of the files from the **RPH** folder inside of the compressed file to the root of your GTA V installation directory.
-
-### ScriptHookVDotNet 2 and ScriptHookVDotNet 3
-
-**PLEASE NOTE THAT THE LAST VERSION THAT SUPPORTED SHVDN2 WAS 1.5.2. [You can download it here]().**
-
-Copy all of the files from the **SHVDN2** and/or **SHVDN2** folder(s) inside of the compressed file to your **scripts** directory.
+Download from releases and extract contents of the `SHVDNC` folder inside the archive to your `scripts` folder.
 
 ### Developers
 

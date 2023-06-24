@@ -36,8 +36,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Authors>Hannele "Lemon" Ruiz</Authors>
-    <Company>Hannele "Lemon" Ruiz</Company>
+    <Authors>NexusKrop;Hannele "Lemon" Ruiz</Authors>
+    <Company>NexusKrop</Company>
     <Product>LemonUI</Product>
     <Description>UI system fork that adds SHVDNCore support.</Description>
     <PackageProjectUrl>https://github.com/NexusKrop/LemonUI</PackageProjectUrl>
@@ -50,10 +50,6 @@
     <None Include="$(SolutionDir)/README.md" Pack="true" Visible="false" PackagePath=""/>
     <None Include="$(SolutionDir)/logo.png" Pack="true" Visible="false" PackagePath=""/>
   </ItemGroup>
-
-  <PropertyGroup>
-    <Description>UI system for Grand Theft Auto V. This package is for ScriptHookVDotNet3.</Description>
-  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ScriptHookVDotNetCore" Version="1.2.1">

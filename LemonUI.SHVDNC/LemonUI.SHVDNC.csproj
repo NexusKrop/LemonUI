@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ForFramework>SHVDN3</ForFramework>
     <TargetFramework>net7</TargetFramework>
@@ -9,7 +9,47 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
-  <Import Project="../root.props" />
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.5.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>$(SolutionDir)\bin\$(Configuration)\$(ForFramework)</OutputPath>
+    <PackageOutputPath>$(SolutionDir)\bin\$(Configuration)\FOR DEVELOPERS</PackageOutputPath>
+    <DocumentationFile>$(SolutionDir)\bin\$(Configuration)\$(ForFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>NexusKrop.$(AssemblyName)</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Hannele "Lemon" Ruiz</Authors>
+    <Company>Hannele "Lemon" Ruiz</Company>
+    <Product>LemonUI</Product>
+    <Description>UI system fork that adds SHVDNCore support.</Description>
+    <PackageProjectUrl>https://github.com/NexusKrop/LemonUI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NexusKrop/LemonUI.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(SolutionDir)/LemonUI/**/*.cs"/>
+    <None Include="$(SolutionDir)/README.md" Pack="true" Visible="false" PackagePath=""/>
+    <None Include="$(SolutionDir)/logo.png" Pack="true" Visible="false" PackagePath=""/>
+  </ItemGroup>
 
   <PropertyGroup>
     <Description>UI system for Grand Theft Auto V. This package is for ScriptHookVDotNet3.</Description>

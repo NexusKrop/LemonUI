@@ -1,6 +1,10 @@
-# LemonUI<br>[![GitHub Actions][actions-img]][actions-url] [![NuGet][nuget-img-2]][nuget-url-2] [![NuGet][nuget-img-3]][nuget-url-3] [![NuGet][nuget-img-f]][nuget-url-f] [![NuGet][nuget-img-r]][nuget-url-r] [![Patreon][patreon-img]][patreon-url] [![PayPal][paypal-img]][paypal-url] [![Discord][discord-img]][discord-url]
+# LemonUI
 
-LemonUI is a framework for creating UI systems in Grand Theft Auto V that is compatible with FiveM, RageMP, RagePluginHook ScriptHookVDotNet 2 and ScriptHookVDotNet 3. It allows you to create UI Elements with a NativeUI-like style, or you can also create your own UI System from scratch via the resolution-independant classes for Text, Rectangles and Textures.
+> **Unofficial version. Not endorsed or supported by Lemon.**
+>
+> For the official version, **[Click here](https://github.com/LemonUIbyLemon/LemonUI)**. Do not report issues that occurs while using this fork to LemonUI upstream; report to this repository.
+
+This is a fork of LemonUI, a framework for creating UI systems in Grand Theft Auto V that is compatible with FiveM, RageMP, RagePluginHook ScriptHookVDotNet 2 and ScriptHookVDotNet 3. It allows you to create UI Elements with a NativeUI-like style, or you can also create your own UI System from scratch via the resolution-independant classes for Text, Rectangles and Textures. This fork adds build for `ScriptHookVDotNetCore`.
 
 It was created as a replacement for NativeUI due to being too convoluted to develop and maintain. LemonUI retains most (if not all) of the UI Elements available in NativeUI.
 

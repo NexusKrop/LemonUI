@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <ForFramework>SHVDN3</ForFramework>
+    <ForFramework>SHVDNC</ForFramework>
     <TargetFramework>net7</TargetFramework>
     <DefineConstants>SHVDN3</DefineConstants>
   </PropertyGroup>
